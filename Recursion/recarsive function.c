@@ -9,6 +9,12 @@ int fun(int n)
 }
 int main()
 {
-    int a=5;
-    printf("%d",fun(a));
+    //int a=5;
+    //printf("%d",fun(a));
+    
+     int r;
+    r=fun(5);
+    printf("%d\n",r);
+    r=fun(5);
+    printf("%d\n",r);
 }
